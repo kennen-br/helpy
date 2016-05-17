@@ -42,7 +42,7 @@ task deploy: :environment do
     invoke :'rails:assets_precompile'
     invoke :'deploy:cleanup'
     to :launch do
-      invoke :'server:restart'
+      #invoke :'server:restart'
     end
   end
 end
