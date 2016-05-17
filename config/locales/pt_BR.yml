@@ -1,4 +1,4 @@
-pt-br:
+pt-BR:
   language_name: 'Português-BR' # The name of the translation file, in that language
   root: &root 'Início'
   how_can_we_help: "Como podemos ajudar?"
@@ -13,7 +13,7 @@ pt-br:
   home: "Início"
   login: "Login"
   logout: "Logout"
-  register: "Registar"
+  register: "Registrar"
   back_to: "Voltar a"
   welcome_back: "Bem-vindo %{username}"
   your_profile: "O seu Perfil"

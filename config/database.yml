@@ -10,6 +10,8 @@ development:
   database: helpy_development
   port: 5432
   host: localhost
+  username: rails
+  password: 0j2qh0jA7V
 
 test:
   <<: *default
