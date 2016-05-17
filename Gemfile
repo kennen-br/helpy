@@ -95,6 +95,7 @@ gem 'rails-timeago'
 # gem 'capistrano-rails', group: :development
 
 gem 'faker'
+gem 'flash_kick'
 
 # RandomUser.me API
 gem 'ruser', '~> 3.0'
@@ -148,4 +149,7 @@ group :production do
   gem 'unicorn'
 end
 
-ruby "2.2.1"
+ruby "2.3.0"
+
+gem 'puma'
+gem 'rb-readline'
