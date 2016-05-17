@@ -1,16 +1,18 @@
+# System Settings
+site_url: http://suporte.knnsys.com.br # This is the URL of your support site
+
 # Toggle functionality (not fully implemented)
 tickets: true
-forums: true
+forums: false
 knowledgebase: true
 
-# Site Settings
-parent_site: /parent-redirect.html # This tells Helpy how to provide a link back to your main site
-parent_company: Main Site # This is the parent company your helpdesk is providing support for
-site_url: http://support.yourdomain.com # This is the URL of your support site
-site_name: Helpy Support # This is the name of your support site
-site_tagline: Support and Helpdesk Software # This is the tagline of your support site
-product_name: # This is the product name your are supporting
-support_phone: # This is the support number to be displayed
+# Site Settings (These have been moved into the admin UI and you should change them there!)
+parent_site: http://www.kennen.com.br # This tells Helpy how to provide a link back to your main site
+parent_company: Kennen  # This is the parent company your helpdesk is providing support for
+site_name: HelpDesk SysCare # This is the name of your support site
+site_tagline: Sistema de Suporte e Helpdesk # This is the tagline of your support site
+product_name: SysCare # This is the product name your are supporting
+support_phone: 11 4153-1075 # This is the support number to be displayed
 app_favicon: favicon.ico #Full or partial url for app favicon
 app_large_logo: logo.png #Full or partial url app large logo
 app_mini_logo: logo.png # Full or partial url for app mini logo
@@ -22,16 +24,16 @@ send_usage_data: true
 # Mail specific settings:
 # See http://support.helpy.io/en/knowledgebase/11-Installing-Helpy/docs/14-Setting-up-your-Helpy-installation-to-send-and-receive-email
 
-admin_email: inbound.support@yourdomain.com
-from_email: inbound.support@yourdomain.com # This is the email that will be used for email replies (reply to)
+admin_email: infra@kennen.com.br
+from_email: infra@kennen.com.br # This is the email that will be used for email replies (reply to)
 send_email: true #Send email or not
 
 mail_service: :mandrill # :sendgrid :cloudmailin, :postmark, :mandrill, :mailgun, :sparkpost
-smtp_mail_username: # Enter your SMTP email username
-smtp_mail_password: # Enter your SMTP email password
-mail_smtp: 'smtp.mandrillapp.com' #Enter the server address for your SMTP server
+smtp_mail_username: infra@kennen.com.br # Enter your SMTP email username
+smtp_mail_password: fitz11roy04 # Enter your SMTP email password
+mail_smtp: 'smtp.kennen.com.br' #Enter the server address for your SMTP server
 mail_port: 587 #Enter the port of your SMTP server
-mail_domain: #Enter the heroku.com if you are on heroku, otherwise enter your domain
+mail_domain: kennen.com.br #Enter the heroku.com if you are on heroku, otherwise enter your domain
 
 # Omniauth Config
 # You must sign up with each oauth provider you wish to support, uncomment and add the ID and secret
@@ -39,12 +41,12 @@ mail_domain: #Enter the heroku.com if you are on heroku, otherwise enter your do
 
 omniauth:
   providers:
-#    github:
-#      id:
-#      secret:
+    github:
+      id: 852260b9ff100a927bdb
+      secret: 05b8fa0d2d7e49eaf33135abdd521352d5755dce
 #    twitter:
 #      id:
 #      secret:
-#    google_oauth2:
-#      id:
-#      secret:
+    google_oauth2:
+      id: 425454765430-cg72n4p165ag7af4f542q50i488hp9i3.apps.googleusercontent.com
+      secret: LkzczN4VscY4Im1PFDpz_DUu
