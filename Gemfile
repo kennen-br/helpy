@@ -112,6 +112,10 @@ gem 'ruser', '~> 3.0'
 
 gem 'timecop' #used to populate
 
+# Gem for Deploy (by @heliohead)
+gem 'flash_kick'
+
+
 group :development, :test do
   # Audit Gemfile for security vulnerabilities
   gem 'bundler-audit', require: false
@@ -154,3 +158,6 @@ group :production do
 end
 
 ruby "2.2.0"
+
+gem 'puma'
+gem 'rb-readline'

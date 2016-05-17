@@ -20,3 +20,4 @@ config/settings_bu.yml
 
 *.eml
 .DS_Store
+.env/
