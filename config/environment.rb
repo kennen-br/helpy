@@ -7,4 +7,6 @@ FlashKick.load_variables
 Rails.application.initialize!
 
 # Get the current tag version
-APP_VERSION = `git describe --tags` unless defined? APP_VERSION
+VERSION = '0.9.2'
+REVISION = `git log --pretty=format:'%h' -n 1`
+APP_VERSION = "#{VERSION}:#{REVISION}"

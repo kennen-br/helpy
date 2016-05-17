@@ -1,5 +1,5 @@
-// === ADMIN GLOBAL OVERRIDES ===
 
+// === ADMIN GLOBAL OVERRIDES ===
 
 body {
 	background-color: #fff;
@@ -69,10 +69,6 @@ td > img {
 
 #ticket-info {
 	margin-bottom: 10px;
-}
-
-#left-col-ticket-nav {
-	margin-top: 50px;
 }
 
 #admin-stats {
@@ -269,6 +265,44 @@ a.stats.active {
 	margin-left:10px;
 }
 
+.settings-grid {
+	margin-top: 40px;
+}
+
+.settings-section {
+  margin-bottom: 50px;
+  margin-top: 40px;
+
+  h2 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+	}
+}
+
+.settings-menu-item {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.active-settings-link {
+  font-weight: bold;
+}
+
+ul.settings-menu {
+	margin-top: 40px;
+}
+
+.settings-icon {
+	font-size: 20px;
+	color: #333;
+}
+
+.settings-menu-icon {
+	margin-right: 5px;
+	font-size: 110%;
+	color: #333;
+}
+
 @media(max-width:767px){
 	h1 {
 		font-size: 150%;
@@ -290,6 +324,12 @@ a.stats.active {
 	}
 	.post-menu {
 		margin-top: 0px;
+	}
+	.settings-grid-block {
+		margin-bottom: 10px;
+	}
+	.settings-menu-icon {
+		font-size: 20px;
 	}
 }
 
@@ -314,6 +354,14 @@ a.stats.active {
 		padding-bottom: 20px;
 		padding-top: 10px;
 	}
+	.settings-grid-block {
+		min-height: 70px;
+		margin-bottom: 10px;
+	}
+	.settings-grid-row {
+		margin-bottom: 20px;
+	}
+
 }
 
 @media(min-width:992px){
@@ -351,5 +399,8 @@ a.stats.active {
 	#pipeline-wrapper {
 		padding-bottom: 0;
 		padding-top: 10px;
+	}
+	.settings-grid-row {
+		margin-bottom: 20px;
 	}
 }
